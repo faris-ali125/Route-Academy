@@ -1,0 +1,97 @@
+:root{
+    --main-font: 'Roboto', 'Open Sans', sans-serif;
+    --bg-color: #1E202B ;
+    --side-bg: #323544;
+    --foot-bg : #262936;
+}
+
+body{
+    background-color: var(--bg-color);
+}
+
+a{
+    color: white !important;
+}
+
+.logoText{
+    font-size: 10px;
+}
+
+.logoSec{
+    width: 40%;
+    /* background-color: tomato; */
+}
+
+.logoSec a {
+  width: 36%;
+      /* background-color: tomato; */
+
+}
+
+.logoSec a:hover{
+color: white;
+}
+
+.logoSec a img{
+     width: 4rem;
+     height: 2.5rem;
+     margin-right: 10px;
+     
+}
+
+#navbarNav{
+    
+    border-radius: 0.3rem;
+    text-align: center;
+    background-color: var(--foot-bg);
+    margin-top: 1rem;
+}
+
+#navbarNav ul li{
+    margin-right: 1.5rem;
+    border-bottom: 1px solid #3C3F4A;
+    padding: 0.5rem;
+    /* margin-left: auto;
+    margin-right: auto; */
+    /* background-color: tomato; */
+}
+
+#navbarNav ul li a{
+    /* background-color: aqua; */
+    margin-top: 5px;
+    border-radius: 0.3rem;
+
+}
+
+
+.navbar-toggler-icon {
+    background-image: url('data:image/svg+xml;utf8,<svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg"><rect width="30" height="6" rx="3" fill="white"/><rect y="12" width="30" height="6" rx="3" fill="white"/><rect y="24" width="30" height="6" rx="3" fill="white"/></svg>');
+    background-size: 15px 15px; /* Adjust the size of the icon */
+    width: 30px;  /* Set the width of the icon */
+    height: 50px; /* Set the height of the icon */
+}
+
+.navbar button{
+    color: transparent;
+    border: transparent;
+}
+
+.navbar button:hover{
+    border-radius: 50%;
+    
+    color: #009AD8;
+}
+
+.activey{
+    color: #009AD8 !important;
+
+}
+
+
+@media (min-width: 768px) {
+  
+    #navbarNav ul li{
+        border-bottom: 1px solid transparent;
+    }
+}
+

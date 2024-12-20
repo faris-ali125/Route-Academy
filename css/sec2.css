@@ -1,0 +1,134 @@
+:root{
+    --main-font: 'Roboto', 'Open Sans', sans-serif;
+    --bg-color: #1E202B ;
+    --side-bg: #323544;
+    --foot-bg : #262936;
+}
+
+
+.secTwo{
+    background-image: url(../images/banner.png);
+    background-repeat: no-repeat;
+    min-height: 1180px;
+    /* background-color: aqua; */
+    /* overflow: hidden */
+}
+
+.edit{
+    margin-top: 2rem;
+}
+.secTwo form .search{
+   border: 2 solid transparent;
+   background-color: var(--bg-color);
+   border: transparent;
+}
+
+.secTwo form .search::placeholder{
+    color: #756951;
+}
+
+.secTwo form  button{
+    transform: translate(-105%);
+    width: 5rem;
+    height: 90%;
+    top: 3px;
+    background-color: #009AD8;
+    color: white;
+    border: transparent;
+    /* right: 1rem; */
+}
+
+.secTwo form  button:hover{
+    background-color: #009AD8;
+    color: white;
+
+}
+
+.form-control:focus{
+    z-index: 0 !important;
+}
+
+
+
+.content{
+    /* margin-top: 4rem; */
+    top: 16%;
+    left: 0;
+    right: 0;
+    /* background-color: tomato; */
+}
+
+/* .editCol{
+    background-color: #1E202B;
+} */
+
+.card{
+    background-color: var(--side-bg);
+    border-radius: 10px;
+    height: 20rem;
+    background-color: var(--side-bg);
+
+}
+.card .head{
+    background-color: var(--foot-bg);
+    color: #BFC1C8;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card .body{
+    background-color: var(--side-bg);
+    color: white;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 10px;
+    
+}
+
+.card .body .main{
+
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+.card .body .mainy{
+
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.card .body .statu{
+
+ color: #009AD8;
+}
+
+.card .body .img{
+    color: #BFC1C8;
+
+}
+
+.small{
+    color: #BFC1C8;
+    font-size: 1rem;
+
+}
+
+
+@media (min-width: 992px) {
+  
+    .secTwo form  button{
+        width: 8rem;
+    }
+
+    .secTwo{
+        min-height: 510px;
+    }
+
+    .content{
+        top: 32%;
+    }
+    
+}
